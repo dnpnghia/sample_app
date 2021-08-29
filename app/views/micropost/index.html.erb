@@ -1,0 +1,12 @@
+<% provide :title, "Micropost" %>
+<h1>List Microposts</h1>
+<h2>
+  Total :  <%= @count %>
+</h2>
+<ul>
+  <% @microposts.each do |micropost| %>
+    <li>
+      <%= micropost.content %>
+    </li>
+  <% end %>
+</ul>
