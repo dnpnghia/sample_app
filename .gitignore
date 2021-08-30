@@ -35,6 +35,10 @@
 /public/packs
 /public/packs-test
 /node_modules
+/test
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+.vscode/extensions.json
+.framgia-ci-reports/
+.framgia-ci-result.temp.yml
