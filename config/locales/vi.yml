@@ -1,0 +1,18 @@
+vi:
+  hello: "xin chào"
+  title: "Ruby on Rails hướng dẫn Sample App"
+  tutorial: "Ruby on Rails Tutorial"
+  railshelp: "Rails Tutorial help page"
+  appname: "sample app"
+  home: 
+    home: "Home"
+    welcome: "Chào mừng đến với Sample App"
+    railshome: "This is the home page for the"
+  help: 
+    help: "Help"
+    gethelp: "Xem các sự trợ giúp cho Ruby on Rails Tutorial tại"
+  login: "Đăng nhập"
+  signup: "Đăng kí ngay!"
+  contact: 
+    contact: "Contact"
+    welcome: "Hello Phu Nghia"
