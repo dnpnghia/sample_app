@@ -2,6 +2,7 @@ source "https://rubygems.org"
 git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "2.6.3"
+gem "bcrypt", "3.1.11"
 gem "bootsnap", ">= 1.4.4", require: false
 gem "bootstrap-sass", "~>3.3.7"
 gem "jbuilder", "~> 2.7"
@@ -12,6 +13,7 @@ gem "sass-rails", ">= 6"
 gem "sqlite3", "~> 1.4"
 gem "turbolinks", "~> 5"
 gem "webpacker", "~> 5.0"
+gem "config"
 
 group :development, :test do
   gem "byebug", platforms: %i(mri mingw x64_mingw)
