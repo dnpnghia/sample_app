@@ -7,6 +7,7 @@ class UsersController < ApplicationController
     @user = User.new user_params
     if @user.save
       flash[:success] = t "home.welcome"
+      log_in @user
       redirect_to user_path id: @user.id
     else
       render :new
@@ -16,7 +17,7 @@ class UsersController < ApplicationController
   def show
     @user = User.find_by id: params[:id]
     return if @user
-    
+
     flash[:warning] = t "user_not_found"
     redirect_to signup_path
   end
