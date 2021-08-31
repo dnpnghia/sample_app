@@ -1,0 +1,6 @@
+<% provide :title, t("users.all_users") %>
+<h1><%= t "users.all_users" %></h1>
+<ul class="users">
+  <%= render @users %>
+</ul>
+<%= paginate @users %>
