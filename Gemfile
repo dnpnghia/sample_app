@@ -25,12 +25,9 @@ group :development do
 end
 
 group :test do
-  gem "capybara", ">= 3.26"
   gem "rubocop", "~> 0.74.0", require: false
   gem "rubocop-checkstyle_formatter", require: false
   gem "rubocop-rails", "~> 2.3.2", require: false
-  gem "selenium-webdriver"
-  gem "webdrivers"
 end
 
 gem "tzinfo-data", platforms: %i(mingw mswin x64_mingw jruby)

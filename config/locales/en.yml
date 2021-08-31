@@ -32,11 +32,4 @@
 en:
   hello: "Hello world"
   title: "Ruby on Rails Tutorial Sample App"
-  tutorial: "Ruby on Rails Tutorial"
-  railshelp: "Rails Tutorial help page"
   appname: "sample app"
-  home: "Home"
-  help: "Help"
-  login: "Login"
-  signup: "Sign up now!"
-  contact: "Contact"
