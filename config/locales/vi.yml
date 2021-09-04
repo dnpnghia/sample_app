@@ -1,4 +1,5 @@
 vi:
+  error: "lỗi"
   hello: "xin chào"
   title: "Ruby on Rails hướng dẫn Sample App"
   tutorial: "Ruby on Rails Tutorial"
@@ -16,3 +17,9 @@ vi:
   contact: 
     contact: "Contact"
     welcome: "Hello Phu Nghia"
+  users:
+    signup: "Đăng kí tài khoản"
+    create_my_account: "Tạo tài khoản của tôi"
+    confirmation: "Xác nhận mật khẩu"
+    the_form_contains: "Mẫu đăng kí chứa"
+  user_not_found: "User not found"
