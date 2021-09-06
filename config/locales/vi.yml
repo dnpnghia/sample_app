@@ -32,3 +32,4 @@ vi:
     login_success: "Đăng nhập thành công!!!"
     login_failed: "Invalid email password combination!!!"
     logout: "Logout"
+    remember: "Ghi nhớ tôi trên máy tính này"

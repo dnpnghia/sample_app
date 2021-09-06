@@ -32,3 +32,4 @@ en:
     login_success: "Login success!!!"
     login_failed: "Invalid email password combination!!!"
     logout: "Logout"
+    remember: "Remember me on this computer"

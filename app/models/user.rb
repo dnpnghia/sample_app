@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  attr_accessor :remember_token
   validates :name, :email, :password, :password_confirmation, presence: true
   validates :name, :password,
             length: {minimum: Settings.user.password.min_length}
@@ -14,5 +15,22 @@ class User < ApplicationRecord
              BCrypt::Engine.cost
            end
     BCrypt::Password.create string, cost: cost
+  end
+
+  def self.new_token
+    SecureRandom.urlsafe_base64
+  end
+
+  def remember
+    self.remember_token = User.new_token
+    update_column :remember_digest, User.digest(remember_token)
+  end
+
+  def authenticated? remember_token
+    BCrypt::Password.new(remember_digest).is_password? remember_token
+  end
+
+  def forget
+    update_column :remember_digest, nil
   end
 end
