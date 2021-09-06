@@ -18,8 +18,17 @@ en:
     contact: "Contact"
     welcome: "Hello Phu Nghia"
   users:
+    setting: "Settings"
+    profile: "Profile"
+    users: "Users"
+    account: "Account"
     signup: "Sign up"
     create_my_account: "Create my account"
     confirmation: "Password Confirmation"
     the_form_contains: "The form contains"
   user_not_found: "User not found"
+  sessions:
+    new_user: "New user?"
+    login_success: "Login success!!!"
+    login_failed: "Invalid email password combination!!!"
+    logout: "Logout"
