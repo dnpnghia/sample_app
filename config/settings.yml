@@ -1,3 +1,5 @@
 user:
   password:
     min_length: 2
+page:
+  per_page: 5

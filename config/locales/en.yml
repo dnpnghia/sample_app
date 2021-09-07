@@ -26,6 +26,10 @@ en:
     create_my_account: "Create my account"
     confirmation: "Password Confirmation"
     the_form_contains: "The form contains"
+    all_users: "All users"
+    sure: "You sure?"
+    deleted: "User deleted."
+    delete_fail: "Delete fail!"
   user_not_found: "User not found"
   sessions:
     new_user: "New user?"
@@ -33,3 +37,9 @@ en:
     login_failed: "Invalid email password combination!!!"
     logout: "Logout"
     remember: "Remember me on this computer"
+  edit:
+    title: "Update your profile"
+    change: "change"
+    save: "Save change"
+    updated: "Profile updated"
+  please_login: "Please login."
