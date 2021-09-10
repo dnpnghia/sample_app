@@ -2,4 +2,6 @@ user:
   password:
     min_length: 2
 page:
-  per_page: 5
+  per_page_5: 5
+time:
+  password_reset_expired: 2

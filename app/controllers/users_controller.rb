@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   before_action :correct_user, only: [:edit, :update]
   before_action :user_admin, only: :destroy
   def index
-    @users = User.page(params[:page]).per(Settings.page.per_page)
+    @users = User.page(params[:page]).per(Settings.page.per_page_5)
   end
 
   def new
@@ -14,9 +14,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      flash[:success] = t "home.welcome"
-      log_in @user
-      redirect_back_or @user
+      UserMailer.account_activation(@user).deliver_now
+      flash[:info] = t "users.check_mail_active"
+      redirect_to root_url
     else
       render :new
     end
