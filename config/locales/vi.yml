@@ -30,6 +30,13 @@ vi:
     sure: "Bạn chắc chắn chứ?"
     deleted: "Xóa thành công."
     delete_fail: "Xóa thất bại!"
+    actived: "Tài khoản đã được kích hoạt!"
+    invalid_active: "Link kích hoạt k hợp lệ"
+    not_active_message: "Account not activated. Check your email for the activation link."
+    check_mail_active: "Please check your email to activate your account."
+    activation: "Account activation"
+    link_active: "Welcome to the Sample App! Click on the link below to activate your account:"
+    click_active: "Activate"
   user_not_found: "Không tìm thấy người dùng"
   sessions:
     new_user: "Thành viên mới?"

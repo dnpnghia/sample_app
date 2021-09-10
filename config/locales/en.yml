@@ -30,6 +30,13 @@ en:
     sure: "You sure?"
     deleted: "User deleted."
     delete_fail: "Delete fail!"
+    actived: "Account activated!"
+    invalid_active: "Invalid activation link"
+    not_active_message: "Account not activated. Check your email for the activation link."
+    check_mail_active: "Please check your email to activate your account."
+    activation: "Account activation"
+    link_active: "Welcome to the Sample App! Click on the link below to activate your account:"
+    click_active: "Activate"
   user_not_found: "User not found"
   sessions:
     new_user: "New user?"
