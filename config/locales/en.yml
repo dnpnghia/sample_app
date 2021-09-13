@@ -5,6 +5,8 @@ en:
   tutorial: "Ruby on Rails Tutorial"
   railshelp: "Rails Tutorial help page"
   appname: "sample app"
+  success: "Success"
+  submit: "Submit"
   home: 
     home: "Home"
     welcome: "Welcome to the Sample App"
@@ -37,6 +39,11 @@ en:
     activation: "Account activation"
     link_active: "Welcome to the Sample App! Click on the link below to activate your account:"
     click_active: "Activate"
+    reset_pass: "Password reset"
+    update_pass: "Update password"
+    reset_expired: "Password reset has expired."
+    pass_empty: "can not be blank"
+    password_reset_success: "Update password success"
   user_not_found: "User not found"
   sessions:
     new_user: "New user?"
@@ -44,9 +51,17 @@ en:
     login_failed: "Invalid email password combination!!!"
     logout: "Logout"
     remember: "Remember me on this computer"
+    forgot: "forgot password"
+    send_email: "Email sent with password reset instructions"
+    email_invalid: "Email address not found"
+    invalid_user: "Access denied"
   edit:
     title: "Update your profile"
     change: "change"
     save: "Save change"
     updated: "Profile updated"
   please_login: "Please login."
+  email:
+    link: "To reset your password click the link below:"
+    expire: "This link will expire in two hours."
+    ignore: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
