@@ -1,7 +1,13 @@
 user:
   password:
     min_length: 2
+  avatar_size: 50
 page:
   per_page_5: 5
 time:
   password_reset_expired: 2
+content:
+  max_length: 140
+  image_size: 5
+  image_type: ["image/jpeg", "image/gif", "image/png"]
+  resize_to_limit: [500, 500]

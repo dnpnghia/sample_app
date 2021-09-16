@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   attr_accessor :remember_token, :activation_token, :reset_token
+  has_many :microposts, dependent: :destroy
   before_save :downcase_email
   before_create :create_activation_digest
   validates :name, :email, presence: true
@@ -66,6 +67,10 @@ class User < ApplicationRecord
     return false unless password.empty?
 
     errors.add :password, I18n.t("users.pass_empty")
+  end
+
+  def feed
+    microposts.recent_posts
   end
 
   private
