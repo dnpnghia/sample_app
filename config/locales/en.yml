@@ -82,3 +82,11 @@ en:
     no_post: "You don't have any posts yet"
     image_invalid_format: "must be a valid image format"
     image_invalid_size: "should be less than 5MB"
+  follow:
+    following: "Following"
+    follower: "Follower"
+    follow: "Follow"
+    unfollow: "Unfollow"
+    view_profile: "View my profile"
+    micropost: "Micropost:"
+    no_one_yet: "No one yet"
